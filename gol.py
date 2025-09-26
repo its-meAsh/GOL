@@ -33,7 +33,7 @@ class GOL:
         return (list(imageObj.getdata()),imageObj.size)
 
     def indexToCoords(self,index:int) -> tuple[int,int]:
-        return (index%self.size[0],index//self.size[1])
+        return (index%self.size[0],index//self.size[0])
     
     def coordsToIndex(self,coords:tuple[int,int]) -> int:
         return coords[1]*self.size[0] + coords[0]
@@ -134,3 +134,4 @@ saveFrames:bool = bool(input("Save frames: "))
 time:int = int(input("Time: "))
 fps:int = int(input("FPS: "))
 sand:GOL = GOL(folderPath,saveFrames,time,fps)
+
