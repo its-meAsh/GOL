@@ -1,4 +1,4 @@
-![Banner](Banner.png)
+![Banner](https://raw.githubusercontent.com/its-meAsh/python/main/Banner.png)
 # Conway's Game of Life Simulator
 
 This Python script is a robust implementation of **Conway's Game of Life (GOL)**. It takes a static image as the initial board state and simulates the evolution of the cellular automata, producing a video of the entire process.
